@@ -1,0 +1,71 @@
+.defaultBackground {
+    -fx-background-image: url(../ui/background.jpg);
+	-fx-background-position:center;
+}
+
+.defaultText {
+    -fx-font-family: 'Roboto'; 
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+}
+
+.blackText {
+	-fx-text-fill: black;
+}
+
+.redText {
+	-fx-text-fill: red;
+}
+
+.greenText {
+	-fx-text-fill: green;
+}
+
+.orangeText {
+	-fx-text-fill: orange;
+}
+
+.blueText {
+	-fx-text-fill: blue;
+}
+
+.whiteText {
+    -fx-text-fill: white;
+}
+
+.mediumText {
+    -fx-font-family: 'Roboto'; 
+    -fx-font-size: 13px;
+    -fx-text-fill: white;
+}
+
+.tittle {
+    -fx-font-size: 32px;
+    -fx-font-style: oblique;
+}
+
+.subtitle {
+    -fx-font-size: 24px;
+}
+
+.largeButton {
+    -fx-font-size: 22px;
+    -fx-background-color: linear-gradient(black, rgb(15, 15, 15));
+    -fx-text-fill: white;
+    -fx-border: none;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-cursor: hand;
+}
+
+.defaultButton {
+    -fx-font-size: 20px;
+    -fx-background-color: linear-gradient(black, rgb(15, 15, 15));
+    -fx-text-fill: white;
+    -fx-border: none;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-cursor: hand;
+}

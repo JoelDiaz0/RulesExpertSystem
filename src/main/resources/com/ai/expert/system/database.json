@@ -1,0 +1,121 @@
+{
+    "indicator": [
+      "cpu_overheating",
+      "low_memory",
+      "disk_error",
+      "network_disconnected",
+      "gpu_failure",
+      "system_freeze",
+      "blue_screen",
+      "boot_failure",
+      "virus_detected",
+      "application_crash",
+      "keyboard_not_responding",
+      "no_audio_output",
+      "mouse_not_responding",
+      "slow_performance",
+      "fan_noise",
+      "screen_flickering",
+      "battery_not_charging",
+      "wifi_signal_weak",
+      "printer_not_responding",
+      "usb_device_not_recognized",
+      "cd_dvd_drive_not_working",
+      "file_system_corrupted",
+      "power_supply_issue",
+      "overclocking_failure",
+      "motherboard_failure",
+      "memory_leak",
+      "software_update_failed",
+      "browser_slow",
+      "email_not_syncing",
+      "external_monitor_not_detected",
+      "laptop_overheating",
+      "touchpad_not_working",
+      "bluetooth_not_working",
+      "sound_distortion"
+    ],
+
+    "problems": [
+        {
+          "problem": "cpu_overheating_issue",
+          "indicators": ["cpu_overheating", "system_freeze", "slow_performance"]
+        },
+        {
+          "problem": "low_memory_issue",
+          "indicators": ["low_memory", "application_crash", "browser_slow"]
+        },
+        {
+          "problem": "disk_error_issue",
+          "indicators": ["disk_error", "blue_screen", "file_system_corrupted"]
+        },
+        {
+          "problem": "network_disconnection_issue",
+          "indicators": ["network_disconnected", "email_not_syncing", "wifi_signal_weak"]
+        },
+        {
+          "problem": "gpu_failure_issue",
+          "indicators": ["gpu_failure", "screen_flickering", "external_monitor_not_detected"]
+        },
+        {
+          "problem": "boot_failure_issue",
+          "indicators": ["boot_failure", "virus_detected", "software_update_failed"]
+        },
+        {
+          "problem": "memory_leak_issue",
+          "indicators": ["application_crash", "memory_leak", "system_freeze"]
+        },
+        {
+          "problem": "fan_noise_issue",
+          "indicators": ["fan_noise", "cpu_overheating", "laptop_overheating"]
+        },
+        {
+          "problem": "power_supply_issue",
+          "indicators": ["blue_screen", "power_supply_issue", "overclocking_failure"]
+        },
+        {
+          "problem": "usb_device_issue",
+          "indicators": ["mouse_not_responding", "usb_device_not_recognized", "keyboard_not_responding"]
+        },
+        {
+          "problem": "audio_output_issue",
+          "indicators": ["no_audio_output", "sound_distortion", "bluetooth_not_working"]
+        },
+        {
+          "problem": "printer_issue",
+          "indicators": ["printer_not_responding", "network_disconnected", "application_crash"]
+        },
+        {
+          "problem": "cd_dvd_drive_issue",
+          "indicators": ["cd_dvd_drive_not_working", "disk_error", "file_system_corrupted"]
+        },
+        {
+          "problem": "battery_issue",
+          "indicators": ["battery_not_charging", "power_supply_issue", "laptop_overheating"]
+        },
+        {
+          "problem": "gpu_screen_issue",
+          "indicators": ["screen_flickering", "gpu_failure", "external_monitor_not_detected"]
+        },
+        {
+          "problem": "system_freeze_issue",
+          "indicators": ["system_freeze", "low_memory", "memory_leak"]
+        },
+        {
+          "problem": "usb_device_not_recognized_issue",
+          "indicators": ["usb_device_not_recognized", "mouse_not_responding", "keyboard_not_responding"]
+        },
+        {
+          "problem": "application_crash_issue",
+          "indicators": ["application_crash", "blue_screen", "disk_error"]
+        },
+        {
+          "problem": "email_sync_issue",
+          "indicators": ["email_not_syncing", "network_disconnected", "wifi_signal_weak"]
+        },
+        {
+          "problem": "performance_issue",
+          "indicators": ["slow_performance", "low_memory", "cpu_overheating"]
+        }
+    ]
+}
